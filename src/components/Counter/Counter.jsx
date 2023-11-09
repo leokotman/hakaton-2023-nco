@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import classes from './Button.module.css';
+import classes from './Counter.module.css';
 
 const Counter = (props) => {
     const [count, setCount] = useState(0);
