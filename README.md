@@ -1,10 +1,14 @@
 # [Junior-Hakaton-2023: Team #40](https://jun-hackaton-landing.vercel.app)
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c1849ce8-e5e5-4911-b27b-494dff083d3a/deploy-status)](https://app.netlify.com/sites/hakaton-2023-best-team/deploys)
+
 ## Team members
 
--- Leo [@LeoKotman](https://t.me/LeoKotman) - frontend developer (React JS, Vanila JS, Material UI) with commercial experience
--- Ivan [@surikiv](https://t.me/surikiv) - junior frontend developer (HTML, CSS, JS) without commercial experience
--- Ekaterina [@kate_sbv](https://t.me/kate_sbv) - UI/UX designer without commercial experience
+Ivan [@surikiv](https://t.me/surikiv) - Junior Frontend developer (HTML, CSS, JS)
+
+Ekaterina [@kate_sbv](https://t.me/kate_sbv) - UI/UX designer
+
+Leo [@LeoKotman](https://t.me/LeoKotman) - Frontend developer (React JS, Vanila JS, Material UI)
 
 ## Project description
 
