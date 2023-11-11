@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import backImg from '../../assets/img/img-0.jpg';
+import backImg from '../../assets/images/img-0.jpg';
 import classes from './Board.module.css';
 
 function SingleCard({ card, chooseCard, isOpen }) {

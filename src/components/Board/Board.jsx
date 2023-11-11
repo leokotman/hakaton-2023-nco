@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
 import classes from './Board.module.css';
-import { IMAGES } from '../../assets/images';
+import { IMAGES } from '../../assets/images.js';
 import SingleCard from './SingleCard';
 
 const Board = (props) => {

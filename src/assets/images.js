@@ -1,11 +1,11 @@
-import catImg from './img/img-1.jpg';
-import childrenImg from './img/img-2.jpg';
-import grannyAndChildImg from './img/img-3.jpg';
-import kidImg from './img/img-4.jpg';
-import boyImg from './img/img-5.jpg';
-import cubesImg from './img/img-6.jpg';
-import dogImg from './img/img-7.jpg';
-import boyPlayImg from './img/img-8.jpg';
+import catImg from './images/img-1.jpg';
+import childrenImg from './images/img-2.jpg';
+import grannyAndChildImg from './images/img-3.jpg';
+import kidImg from './images/img-4.jpg';
+import boyImg from './images/img-5.jpg';
+import cubesImg from './images/img-6.jpg';
+import dogImg from './images/img-7.jpg';
+import boyPlayImg from './images/img-8.jpg';
 
 
 
