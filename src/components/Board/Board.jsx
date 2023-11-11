@@ -7,7 +7,7 @@ import SingleCard from './SingleCard';
 const Board = (props) => {
 
     const [cards, setCards] = useState([]);
-    const [live, setLive] = useState(20);
+    const [live, setLive] = useState(0);
     const [moveToFinish, setMoveToFinish] = useState(0);
 
     const [pickOne, setPickOne] = useState(null);
@@ -28,7 +28,7 @@ const Board = (props) => {
     const reset = () => {
         setPickOne(null);
         setPickTwo(null);
-        setLive(live => live - 1);
+        setLive(live => live + 1);
     }
 
     useEffect(() => {
@@ -61,8 +61,8 @@ const Board = (props) => {
     return (
         <div>
             <button onClick={mixImages}>Start</button>
-            <div className={classes.liveCounter}>Live: {live}</div>
-            <div className={classes.move}>Cards to finish : {moveToFinish} / 8</div>
+            <div className={classes.liveCounter}>Ход: {live}</div>
+            <div className={classes.move}>Счёт: {moveToFinish} / 8</div>
             <div className={classes.boardGrid}>
                 
                 {cards.map(card => (
@@ -75,7 +75,6 @@ const Board = (props) => {
                 ))
                 }
             </div>
-            <button>Restart</button>
         </div>
     );
 }
