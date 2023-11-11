@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import classes from './Counter.module.css';
 
-const Counter = (props) => {
+export const Counter = (props) => {
     const [count, setCount] = useState(0);
 
     function increment() {
@@ -20,5 +20,3 @@ const Counter = (props) => {
         </div>
     );
 }
-
-export default Counter;
