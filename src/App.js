@@ -1,27 +1,17 @@
-import logo from './logo.svg';
+import { useState } from 'react';
 import './App.css';
-import Navbar from './components/Navbar/Navbar';
-import Counter from './components/Counter/Counter';
+import { Home, Settings, Game } from './views';
 
 function App() {
+  const [isHomeOpen, setIsHomeOpen] = useState(true);
+  const [isSettingsOpen, setIsSettingsOpen] = useState(true);
+  const [isGameOpen, setIsGameOpen] = useState(true);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <Navbar title='Hakaton' />
-        <Counter />
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {isHomeOpen && <Home />}
+      {isSettingsOpen && <Settings />}
+      {isGameOpen && <Game />}
     </div>
   );
 }
