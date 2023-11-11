@@ -2,11 +2,12 @@ import React, { useState, useEffect, useContext } from 'react';
 import classes from './Board.module.css';
 import { IMAGES } from 'assets/images.js';
 import SingleCard from './SingleCard';
-import { LocationContext } from 'App.js';
-import { PAGES } from 'utils/constants.js';
+
+import { VIEWS } from 'utils/constants.js';
+import { AppContext } from 'utils/context';
 
 export const Board = (props) => {
-  const { location, setLocation } = useContext(LocationContext);
+  const { location, setLocation } = useContext(AppContext);
   const [cards, setCards] = useState([]);
   const [move, setMove] = useState(0);
   const [moveToFinish, setMoveToFinish] = useState(0);
@@ -58,12 +59,12 @@ export const Board = (props) => {
   useEffect(() => {
     if (moveToFinish === 8) {
       console.log('Finish');
-      setLocation(PAGES.Results);
+      setLocation(VIEWS.Results);
     }
   }, [moveToFinish, setLocation]);
 
   useEffect(() => {
-    if (location === PAGES.Game) {
+    if (location === VIEWS.Game) {
       mixImages();
     }
   }, [location]);
