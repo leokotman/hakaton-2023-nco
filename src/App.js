@@ -18,6 +18,7 @@ function App() {
     <div className="App">
       {isHomeOpen && <Home onClickPlay={() => goToNextPage(PAGES.Settings)} />}
       {isSettingsOpen && (
+        
         <Settings onClickStartGame={() => goToNextPage(PAGES.Game)} />
       )}
       {isGameOpen && (

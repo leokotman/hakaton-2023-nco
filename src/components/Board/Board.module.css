@@ -1,0 +1,28 @@
+.card {
+    width: 100px;
+    height: 100px;
+}
+
+img.card {
+    object-fit: cover;
+}
+
+.back {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.open {
+    display: block;
+}
+
+.none {
+    display: none;
+}
+
+.boardGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-gap: 20px;
+}
