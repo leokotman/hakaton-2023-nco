@@ -1,7 +1,7 @@
 import { Navbar, Board } from 'components';
 
 export const Game = (props) => {
-  const { onRestartGame, onFinishGame } = props;
+  const { onRestartGame, onPauseGame } = props;
 
   return (
     <>
@@ -9,8 +9,7 @@ export const Game = (props) => {
         <Navbar title="Найди пару" />
         <Board />
         <button onClick={onRestartGame}>Начать сначала</button>
-        <p>Игра доска</p>
-        <button onClick={onFinishGame}>Закончить игру</button>
+        <button onClick={onPauseGame}>Приостановить игру</button>
       </header>
     </>
   );

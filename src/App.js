@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import './App.css';
+import { Home, Settings, Game, Results, Pause } from './views';
 import { VIEWS } from './utils/constants';
 import { AppContext } from 'utils/context';
 
@@ -13,6 +14,7 @@ function App() {
   const isSettingsOpen = location === VIEWS.Settings;
   const isGameOpen = location === VIEWS.Game;
   const isResultsOpen = location === VIEWS.Results;
+  const isPauseOpen = location === VIEWS.Pause;
 
   const goToNextPage = (viewToOpen) => {
     setLocation(viewToOpen);
@@ -32,8 +34,10 @@ function App() {
         {isGameOpen && (
           <Game
             onRestartGame={() => goToNextPage(VIEWS.Home)}
+            onPauseGame={() => goToNextPage(VIEWS.Pause)}
           />
         )}
+        {isPauseOpen && <Pause onClickPlay={() => goToNextPage(VIEWS.Game)} />}
         {isResultsOpen && (
           <Results onRestartGame={() => goToNextPage(VIEWS.Home)} />
         )}
