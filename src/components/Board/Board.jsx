@@ -22,7 +22,6 @@ const Board = (props) => {
     }
 
     const chooseCard = (card) => {
-        console.log('card:', card);
         !pickOne ? setPickOne(card) : setPickTwo(card);
     }
     
