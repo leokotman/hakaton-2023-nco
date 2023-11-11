@@ -1,12 +1,25 @@
-import React from 'react';
-import classes from './style.css';
+import React, { useEffect } from 'react';
+import classes from './GameBoard.module.css';
 
-function SingleCard({ card }) {
+function SingleCard({ card, chooseCard, isOpen }) {
+
+    useEffect(() => {
+        
+    }, [isOpen]);
+
+    const clickOnCard = () => {
+        chooseCard(card)
+    }
+
     return (
         <div>
-            <div className={classes.card}>
-                <img className={classes.card} src={card.src} alt={card.alt} />
-                <img className={classes.none} src="/img/img-0.jpg" alt="cards back" />
+            <div>
+                <img className={isOpen ? `${classes.card} ${classes.open}` : `${classes.card} ${classes.none}`} src={card.src} alt={card.alt} />
+                <img
+                  className={isOpen ? classes.none : classes.back}
+                  src="/img/img-0.jpg"
+                  onClick={clickOnCard}
+                  alt="cards back" />
             </div>
         </div>
     );
