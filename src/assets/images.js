@@ -1,34 +1,45 @@
+import catImg from './img/img-1.jpg';
+import childrenImg from './img/img-2.jpg';
+import grannyAndChildImg from './img/img-3.jpg';
+import kidImg from './img/img-4.jpg';
+import boyImg from './img/img-5.jpg';
+import cubesImg from './img/img-6.jpg';
+import dogImg from './img/img-7.jpg';
+import boyPlayImg from './img/img-8.jpg';
+
+
+
 const IMAGES = [
     {
-        src: '/img/img-1.jpg',
+        src: catImg,
         alt: 'Cat'
     },
     {
-        src: '/img/img-2.jpg',
+        src: childrenImg,
         alt: 'Children'
     },
     {
-        src: '/img/img-3.jpg',
+        src: grannyAndChildImg,
         alt: 'Granny and child'
     },
     {
-        src: '/img/img-4.jpg',
+        src: kidImg,
         alt: 'A kid ready to school'
     },
     {
-        src: '/img/img-5.jpg',
+        src: boyImg,
         alt: 'A boy on a skateboard'
     },
     {
-        src: '/img/img-6.jpg',
+        src: cubesImg,
         alt: 'Cubes'
     },
     {
-        src: '/img/img-7.jpg',
+        src: dogImg,
         alt: 'A dog'
     },
     {
-        src: '/img/img-8.jpg',
+        src: boyPlayImg,
         alt: 'A boy is playing'
     }
 ]

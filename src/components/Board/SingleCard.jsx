@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import backImg from '../../assets/img/img-0.jpg';
 import classes from './Board.module.css';
 
 function SingleCard({ card, chooseCard, isOpen }) {
@@ -17,7 +18,7 @@ function SingleCard({ card, chooseCard, isOpen }) {
                 <img className={isOpen ? `${classes.card} ${classes.open}` : `${classes.card} ${classes.none}`} src={card.src} alt={card.alt} />
                 <img
                   className={isOpen ? classes.none : classes.back}
-                  src="/img/img-0.jpg"
+                  src={backImg}
                   onClick={clickOnCard}
                   alt="cards back" />
             </div>
