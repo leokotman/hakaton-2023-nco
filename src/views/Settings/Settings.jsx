@@ -1,7 +1,11 @@
 import classes from './Settings.module.css';
 
-export const Settings = () => {
+export const Settings = (props) => {
+  const { onClickStartGame } = props;
   return (
-    <p className={classes.settings}>Settings page layout</p>
-  )
-}
+    <div className={classes.settings}>
+      Настройки (выбери уровень)
+      <button onClick={onClickStartGame}>Начать игру</button>
+    </div>
+  );
+};
