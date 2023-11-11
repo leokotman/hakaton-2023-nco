@@ -6,42 +6,41 @@ import boyImg from './images/img-5.jpg';
 import cubesImg from './images/img-6.jpg';
 import dogImg from './images/img-7.jpg';
 import boyPlayImg from './images/img-8.jpg';
-
-
+import backImg from 'assets/images/img-0.jpg';
 
 const IMAGES = [
-    {
-        src: catImg,
-        alt: 'Cat'
-    },
-    {
-        src: childrenImg,
-        alt: 'Children'
-    },
-    {
-        src: grannyAndChildImg,
-        alt: 'Granny and child'
-    },
-    {
-        src: kidImg,
-        alt: 'A kid ready to school'
-    },
-    {
-        src: boyImg,
-        alt: 'A boy on a skateboard'
-    },
-    {
-        src: cubesImg,
-        alt: 'Cubes'
-    },
-    {
-        src: dogImg,
-        alt: 'A dog'
-    },
-    {
-        src: boyPlayImg,
-        alt: 'A boy is playing'
-    }
-]
+  {
+    src: catImg,
+    alt: 'Cat',
+  },
+  {
+    src: childrenImg,
+    alt: 'Children',
+  },
+  {
+    src: grannyAndChildImg,
+    alt: 'Granny and child',
+  },
+  {
+    src: kidImg,
+    alt: 'A kid ready to school',
+  },
+  {
+    src: boyImg,
+    alt: 'A boy on a skateboard',
+  },
+  {
+    src: cubesImg,
+    alt: 'Cubes',
+  },
+  {
+    src: dogImg,
+    alt: 'A dog',
+  },
+  {
+    src: boyPlayImg,
+    alt: 'A boy is playing',
+  },
+];
 
-export { IMAGES };
+export { IMAGES, backImg };
