@@ -20,6 +20,11 @@ function App() {
     setLocation(viewToOpen);
   };
 
+  const handleRestartGame = () => {
+    setGameScore({ moves: 0, points: 0 });
+    goToNextPage(VIEWS.Home);
+  };
+
   return (
     <div className="App">
       <AppContext.Provider
@@ -33,14 +38,12 @@ function App() {
         )}
         {isGameOpen && (
           <Game
-            onRestartGame={() => goToNextPage(VIEWS.Home)}
+            onRestartGame={handleRestartGame}
             onPauseGame={() => goToNextPage(VIEWS.Pause)}
           />
         )}
         {isPauseOpen && <Pause onClickPlay={() => goToNextPage(VIEWS.Game)} />}
-        {isResultsOpen && (
-          <Results onRestartGame={() => goToNextPage(VIEWS.Home)} />
-        )}
+        {isResultsOpen && <Results onRestartGame={handleRestartGame} />}
       </AppContext.Provider>
     </div>
   );
