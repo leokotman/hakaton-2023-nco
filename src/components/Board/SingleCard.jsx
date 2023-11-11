@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import classes from './GameBoard.module.css';
+import classes from './Board.module.css';
 
 function SingleCard({ card, chooseCard, isOpen }) {
 

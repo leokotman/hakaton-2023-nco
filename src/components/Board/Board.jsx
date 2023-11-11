@@ -1,10 +1,10 @@
 
 import React, { useState, useEffect } from 'react';
-import classes from './GameBoard.module.css';
+import classes from './Board.module.css';
 import { IMAGES } from '../../assets/images';
 import SingleCard from './SingleCard';
 
-const GameBoard = (props) => {
+const Board = (props) => {
 
     const [cards, setCards] = useState([]);
     const [live, setLive] = useState(20);
@@ -81,4 +81,4 @@ const GameBoard = (props) => {
     );
 }
 
-export default GameBoard;
+export default Board;

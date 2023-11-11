@@ -2,7 +2,6 @@ import { useState } from 'react';
 import './App.css';
 import { Home, Settings, Game, Results } from './views';
 import { PAGES } from './utils/constants';
-import GameBoard from './components/GameBoard/GameBoard';
 
 function App() {
   const [location, setLocation] = useState(PAGES.Home);
@@ -19,7 +18,7 @@ function App() {
     <div className="App">
       {isHomeOpen && <Home onClickPlay={() => goToNextPage(PAGES.Settings)} />}
       {isSettingsOpen && (
-        <GameBoard />
+        
         <Settings onClickStartGame={() => goToNextPage(PAGES.Game)} />
       )}
       {isGameOpen && (
