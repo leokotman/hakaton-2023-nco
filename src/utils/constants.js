@@ -1,4 +1,4 @@
-export const PAGES = {
+export const VIEWS = {
   Home: 'home',
   Settings: 'settings',
   Game: 'game',
