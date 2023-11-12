@@ -26,23 +26,7 @@ https://deploy-preview-20--hakaton-2023-best-team.netlify.app/
 
 ### `Стартовая страница`
 
-<img src="https://drive.google.com/file/d/1vmfoKqIlraKsTck0RYF3piV0qIkJLgJU/view?usp=drive_link" width=600 />
-
-### `Поле игры`
-
-<img src="https://drive.google.com/file/d/1T-13OEGqfAvAnSOxEBv6KG4ZhYlwjeY6/view?usp=drive_link" width=600 />
-
-### `Пауза`
-
-<img src="https://drive.google.com/file/d/1T-13OEGqfAvAnSOxEBv6KG4ZhYlwjeY6/view?usp=drive_link" width=600 />
-
-### `Предупреждение (модальное окно рестарта)`
-
-<img src="https://drive.google.com/file/d/1hdUMVxDc8wurgnZYIrRfZrMtwveRTbI_/view?usp=drive_link" width=600 />
-
-### `Финальная страница`
-
-<img src="https://drive.google.com/file/d/1hCEk0OYpM6eSGOzuh1SattxNxoMvuqHN/view?usp=drive_link" width=600 />
+https://drive.google.com/drive/folders/1imNgLvqkqNyfaOGXzmCmOmyUsl9l0Mc8?usp=drive_link
 
 ## Чек-лист задач в рамках Hatakon-2023
 
