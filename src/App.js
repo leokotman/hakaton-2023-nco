@@ -38,8 +38,8 @@ function App() {
         )}
         {isGameOpen && (
           <Game
-            onRestartGame={handleRestartGame}
-            onPauseGame={() => goToNextPage(VIEWS.Pause)}
+          onRestartGame = {handleRestartGame}
+          onPauseGame={() => goToNextPage(VIEWS.Pause)}
           />
         )}
         {isPauseOpen && <Pause onClickPlay={() => goToNextPage(VIEWS.Game)} />}
