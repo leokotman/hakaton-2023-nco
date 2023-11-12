@@ -1,11 +1,11 @@
-import catImg from './images/img-1.jpg';
-import childrenImg from './images/img-2.jpg';
-import grannyAndChildImg from './images/img-3.jpg';
-import kidImg from './images/img-4.jpg';
-import boyImg from './images/img-5.jpg';
-import cubesImg from './images/img-6.jpg';
-import dogImg from './images/img-7.jpg';
-import boyPlayImg from './images/img-8.jpg';
+import catImg from './images/cat.svg';
+import flowerImg from './images/flower.svg';
+import handImg from './images/hand.svg';
+import homeImg from './images/home.svg';
+import hugImg from './images/hug.svg';
+import peopleImg from './images/people.svg';
+import treeImg from './images/tree.svg';
+import heartImg from './images/heart.svg';
 import backImg from 'assets/images/question.svg';
 
 const IMAGES = [
@@ -14,31 +14,31 @@ const IMAGES = [
     alt: 'Cat',
   },
   {
-    src: childrenImg,
+    src: flowerImg,
     alt: 'Children',
   },
   {
-    src: grannyAndChildImg,
+    src: handImg,
     alt: 'Granny and child',
   },
   {
-    src: kidImg,
+    src: homeImg,
     alt: 'A kid ready to school',
   },
   {
-    src: boyImg,
+    src: hugImg,
     alt: 'A boy on a skateboard',
   },
   {
-    src: cubesImg,
+    src: peopleImg,
     alt: 'Cubes',
   },
   {
-    src: dogImg,
+    src: treeImg,
     alt: 'A dog',
   },
   {
-    src: boyPlayImg,
+    src: heartImg,
     alt: 'A boy is playing',
   },
 ];
