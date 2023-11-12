@@ -19,9 +19,13 @@ export const Game = (props) => {
         </div>
         <GameTitle />
       </header>
-      <Board />
-      <button className={classes.restart} onClick={openModal}></button>
-      <button className={classes.pause} onClick={onPauseGame}></button>
+      <div className={classes.gridLayout}>
+        <Board className={classes.div1} />
+        <div className={classes.div2}>
+          <button className={classes.pause} onClick={onPauseGame}></button>
+          <button className={classes.restart} onClick={openModal}></button>
+        </div>
+      </div>
     </main>
   );
 };
