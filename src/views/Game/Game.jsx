@@ -13,11 +13,6 @@ export const Game = (props) => {
   return (
     <>
       <header className="App-header">
-        <div>
-          {modalIsOpen && (
-            <Confirm onRestartGame={onRestartGame} onClickPlay={closeModal} />
-          )}
-        </div>
         <Navbar className={classes.title} title="Найди пару" />
         <Board />
         <button className={classes.restart} onClick={openModal}></button>

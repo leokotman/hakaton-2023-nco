@@ -1,5 +1,5 @@
 .game {
-  background-color: #7766C6;
+    background-color: #7766C6;
 }
 
 .restart {
@@ -30,10 +30,4 @@
     right: 300px;
     border: initial;
     background-position: center; 
-}
-
-.title {
-    font-family: 'Montserrat Alternates';
-    font-size: 96px;
-    font-weight: 800;
 }
