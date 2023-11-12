@@ -22,6 +22,9 @@ https://hakaton-2023-best-team.netlify.app/
 
 Нажимаю кнопку старт - перед вами появляется поле 4x4 с 8-мью парами карточек. Выбрав одну карточку, постарайтесь найти для неё пару. Каждый ваш ход, а также колличество оставшихся комбинаций представлены слева от поля игры. Кнопки справа позволят вам поставить игру на паузу, либо начать с начала. Когда все комбинации будут открыты игра завершится. Ваша задача сделать это за наименьшее колличество шагов. Приятной игры!!!
 
+## Дизайн
+https://www.figma.com/file/cTmG2PWjhL7fRR9GrC0Vmb/Best-team---Memory-game---Hakaton-40?type=design&node-id=0%3A1&mode=design&t=v326ciC8QL7A4hp3-1
+
 ## Скриншоты
 
 https://drive.google.com/drive/folders/1imNgLvqkqNyfaOGXzmCmOmyUsl9l0Mc8?usp=drive_link
