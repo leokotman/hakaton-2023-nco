@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@800&display=swap');
 
 .title {
-  position: relative; /* Вынужненно, т.к. на стартовой странице перекрывается градиентом */
+  position: relative;
   color: #fff;
   font-family: 'Montserrat Alternates', sans-serif;
   font-size: 96px;
