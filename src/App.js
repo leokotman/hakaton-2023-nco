@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import './App.css';
-import { Home, Settings, Game, Results, Pause } from './views';
+import { Home, Game, Results, Pause } from './views';
 import { VIEWS } from './utils/constants';
 import { AppContext } from 'utils/context';
 
@@ -11,7 +11,6 @@ function App() {
     moves: 0,
   });
   const isHomeOpen = location === VIEWS.Home;
-  const isSettingsOpen = location === VIEWS.Settings;
   const isGameOpen = location === VIEWS.Game;
   const isResultsOpen = location === VIEWS.Results;
   const isPauseOpen = location === VIEWS.Pause;
@@ -30,16 +29,11 @@ function App() {
       <AppContext.Provider
         value={{ location, setLocation, gameScore, setGameScore }}
       >
-        {isHomeOpen && (
-          <Home onClickPlay={() => goToNextPage(VIEWS.Settings)} />
-        )}
-        {isSettingsOpen && (
-          <Settings onClickStartGame={() => goToNextPage(VIEWS.Game)} />
-        )}
+        {isHomeOpen && <Home onClickPlay={() => goToNextPage(VIEWS.Game)} />}
         {isGameOpen && (
           <Game
-          onRestartGame = {handleRestartGame}
-          onPauseGame={() => goToNextPage(VIEWS.Pause)}
+            onRestartGame={handleRestartGame}
+            onPauseGame={() => goToNextPage(VIEWS.Pause)}
           />
         )}
         {isPauseOpen && <Pause onClickPlay={() => goToNextPage(VIEWS.Game)} />}

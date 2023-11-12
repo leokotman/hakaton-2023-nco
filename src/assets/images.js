@@ -6,7 +6,9 @@ import hugImg from './images/hug.svg';
 import peopleImg from './images/people.svg';
 import treeImg from './images/tree.svg';
 import heartImg from './images/heart.svg';
+
 import backImg from 'assets/images/question.svg';
+import star from 'assets/images/star.svg';
 
 const IMAGES = [
   {
@@ -43,4 +45,4 @@ const IMAGES = [
   },
 ];
 
-export { IMAGES, backImg };
+export { IMAGES, backImg, star };

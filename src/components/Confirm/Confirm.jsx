@@ -1,6 +1,6 @@
 import classes from './Confirm.module.css';
 
-function Confirm(props) {
+export const Confirm = (props) => {
   const { onRestartGame, onClickPlay } = props;
 
   return (
@@ -13,6 +13,4 @@ function Confirm(props) {
       </fieldset>
     </div>
   );
-}
-
-export default Confirm;
+};
