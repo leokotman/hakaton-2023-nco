@@ -6,7 +6,12 @@ export const Pause = (props) => {
   return (
     <div className={classes.home}>
       Найди пару (заголовок)
-      <button onClick={onClickPlay}>Вернуться к игре</button>
+      Вернуться к игре
+      <button onClick={onClickPlay}>
+        <div className={classes.playIcon}>
+          <div className={classes.play}></div>
+        </div>
+      </button>
     </div>
   );
 };
