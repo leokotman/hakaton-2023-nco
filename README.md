@@ -2,27 +2,77 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/c1849ce8-e5e5-4911-b27b-494dff083d3a/deploy-status)](https://app.netlify.com/sites/hakaton-2023-best-team/deploys)
 
-## Team members
+## Команда
 
-Julia [@jull04](https://t.me/jull04) - Junior Frontend developer (HTML, CSS, JS, React)
+Julia [@jull04](https://t.me/jull04) - джуниор фронтенд разработчик (HTML, CSS, JS, React)
 
-Ivan [@surikiv](https://t.me/surikiv) - Junior Frontend developer (HTML, CSS, JS)
+Ivan [@surikiv](https://t.me/surikiv) - джуниор фронтенд разработчик (HTML, CSS, JS)
 
-Ekaterina [@kate_sbv](https://t.me/kate_sbv) - UI/UX designer
+Ekaterina [@kate_sbv](https://t.me/kate_sbv) - UI/UX дизайнер (Figma, Adobe Illustrator, Procteate, Cinema 4D)
 
-Leo [@LeoKotman](https://t.me/LeoKotman) - Frontend developer (React JS, Vanila JS, Material UI)
+Leo [@LeoKotman](https://t.me/LeoKotman) - фронтенд разработчик (React JS, Vanila JS)
 
-## Project description
+## Деплой проекта
 
-## UI/UX
+https://deploy-preview-20--hakaton-2023-best-team.netlify.app/
+
+## Описание
+
+Перед вами браузерная игра "Найди пару" на основе Memory game, цель которой найти пары заранее перемешаных и перевернутых карточек.
+
+Нажимаю кнопку старт - перед вами появляется поле 4x4 с 8-мью парами карточек. Выбрав одну карточку, постарайтесь найти для неё пару. Каждый ваш ход, а также колличество оставшихся комбинаций представлены слева от поля игры. Кнопки справа позволят вам поставить игру на паузу, либо начать с начала. Когда все комбинации будут открыты игра завершится. Ваша задача сделать это за наименьшее колличество шагов. Приятной игры!!!
+
+## Скриншоты
+
+### `Стартовая страница`
+
+<img src="https://drive.google.com/file/d/1vmfoKqIlraKsTck0RYF3piV0qIkJLgJU/view?usp=drive_link" width=600 />
+
+### `Поле игры`
+
+<img src="https://drive.google.com/file/d/1T-13OEGqfAvAnSOxEBv6KG4ZhYlwjeY6/view?usp=drive_link" width=600 />
+
+### `Пауза`
+
+<img src="https://drive.google.com/file/d/1T-13OEGqfAvAnSOxEBv6KG4ZhYlwjeY6/view?usp=drive_link" width=600 />
+
+### `Предупреждение (модальное окно рестарта)`
+
+<img src="https://drive.google.com/file/d/1hdUMVxDc8wurgnZYIrRfZrMtwveRTbI_/view?usp=drive_link" width=600 />
+
+### `Финальная страница`
+
+<img src="https://drive.google.com/file/d/1hCEk0OYpM6eSGOzuh1SattxNxoMvuqHN/view?usp=drive_link" width=600 />
+
+## Чек-лист задач в рамках Hatakon-2023
+
+&#9989; 1. Вывод поля с рандомно расположенными карточками (каждый раунд - новая позиция карточке);
+
+&#9989; 2. Возможность открывать карточки;
+
+&#9989; 3. Закрытие непарных карточек;
+
+&#9989; 4. Подсчет колличества ходов;
+
+&#9989; 5. Возможность начать игру заново;
+
+&#9989; 6. Экран поздравления с окончанием игры;
+
+## Дополнительные задачи (UI/UX)
+
+&#9989; 1. Красивый дизайн;
 
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Проект реализован с помощью [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Развернуть проект локально
 
-In the project directory, you can run:
+- скачать на свой ПК с помошью: `git clone`
+- далее `npm install`
+- `npm start`
+
+## Дополнительные команды:
 
 ### `npm start`
 
