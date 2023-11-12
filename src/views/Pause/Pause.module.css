@@ -2,8 +2,17 @@
   width: 100%;
   height: 100dvh;
   background-color: lightsteelblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+.home button {
+  border: none;
+  background-color: transparent;
+  margin: 0;
+  padding: 0;
+}
 
 .playIcon {
   width: 250px;
@@ -25,10 +34,6 @@
   border-bottom: 50px solid transparent;
   border-left: 80px solid #ffc212;
   margin-left: 17px;
-}
-
-.playIcon {
-  box-shadow: -8px -8px 80px 0px #FFE8B7, 8px 8px 80px 0px #FFE8B7;
 }
 
 .playBtn:hover .playIcon {

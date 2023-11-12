@@ -7,7 +7,7 @@ export const Pause = (props) => {
     <div className={classes.home}>
       Найди пару (заголовок)
       Вернуться к игре
-      <button onClick={onClickPlay}>
+      <button className={classes.playBtn} onClick={onClickPlay}>
         <div className={classes.playIcon}>
           <div className={classes.play}></div>
         </div>
