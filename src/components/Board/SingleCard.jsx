@@ -11,7 +11,7 @@ function SingleCard({ card, chooseCard, isOpen }) {
   };
 
   return (
-    <div>
+    <div className="card">
       <img
         className={
           isOpen

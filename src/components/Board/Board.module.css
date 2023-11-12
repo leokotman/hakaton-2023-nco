@@ -1,6 +1,9 @@
 .card {
     width: 100px;
     height: 100px;
+    background-color: #46467A;
+    box-shadow: 3px 4px 16px 0px rgba(0, 0, 0, 0.40), 6px 7px 32px 0px rgba(119, 102, 198, 0.79) inset;
+    border-radius: 10px;
 }
 
 img.card {
@@ -11,6 +14,7 @@ img.card {
     width: 100px;
     height: 100px;
     object-fit: cover;
+    box-shadow: 3px 4px 16px 0px rgba(0, 0, 0, 0.40), 6px 7px 32px 0px rgba(119, 102, 198, 0.79) inset;
 }
 
 .open {
@@ -25,4 +29,35 @@ img.card {
     display: grid;
     grid-template-columns: repeat(4, 100px);
     grid-gap: 20px;
+    background-color: #46467A;
+    padding: 20px;
+    position: relative;
+}
+
+.moveCounter {
+    display: flex;
+    border-radius: 12px;
+    background: #2F2F61;
+    width: 200px;
+    height: 88px;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.move {
+    display: flex;
+    border-radius: 12px;
+    background: #FFC212;
+    width: 200px;
+    height: 88px;
+    justify-content: center;
+    position: absolute;
+    top: 350px;
+    left: 200px;
+    justify-content: center;
+    align-items: center;
+
 }

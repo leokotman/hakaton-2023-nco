@@ -4,6 +4,8 @@
 
 ## Team members
 
+Julia [@jull04](https://t.me/jull04) - Junior Frontend developer (HTML, CSS, JS, React)
+
 Ivan [@surikiv](https://t.me/surikiv) - Junior Frontend developer (HTML, CSS, JS)
 
 Ekaterina [@kate_sbv](https://t.me/kate_sbv) - UI/UX designer

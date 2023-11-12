@@ -1,4 +1,5 @@
 import { Navbar, Board } from 'components';
+import classes from './Game.module.css';
 
 export const Game = (props) => {
   const { onRestartGame, onPauseGame } = props;
@@ -6,10 +7,10 @@ export const Game = (props) => {
   return (
     <>
       <header className="App-header">
-        <Navbar title="Найди пару" />
+        <Navbar className={classes.title} title="Найди пару" />
         <Board />
-        <button onClick={onRestartGame}>Начать сначала</button>
-        <button onClick={onPauseGame}>Приостановить игру</button>
+        <button className={classes.restart} onClick={onRestartGame}></button>
+        <button className={classes.pause} onClick={onPauseGame}></button>
       </header>
     </>
   );
