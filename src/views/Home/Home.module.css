@@ -37,13 +37,17 @@
 
 .startContainer {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   align-self: start;
-  width: 80%;
+  gap: 70px;
+  width: 100%;
   height: 100%;
   z-index: 1;
+}
+
+.startBox {
+  text-align: left;
 }
 
 .home button {
@@ -82,18 +86,10 @@
   margin-left: 17px;
 }
 
-.start:hover {
-  color: #2F2F61;
-}
-
-.start:active {
-  color: #1c1c44;
-}
-
-.start:hover .playIcon {
+.playBtn:hover .playIcon {
   background-color: #2F2F61;
 }
 
-.start:active .playIcon {
+.playBtn:active .playIcon {
   background-color: #22224e;
 }

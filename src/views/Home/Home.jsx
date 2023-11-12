@@ -10,12 +10,14 @@ export const Home = (props) => {
       <div className={classes.gradient}></div>
       <img src={startImg} className={classes.startImg} alt="start" />
       <div className={classes.startContainer}>
-        <GameTitle />
-        <button className={classes.start} onClick={onClickPlay}>
+        <div className={classes.startBox}>
+          <GameTitle />
+          <div className={classes.start}>Начать игру</div>
+        </div>
+        <button className={classes.playBtn} onClick={onClickPlay}>
           <div className={classes.playIcon}>
               <div className={classes.play}></div>
           </div>
-          Начать игру
         </button>
       </div>
     </div>
