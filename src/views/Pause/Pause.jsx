@@ -6,20 +6,18 @@ export const Pause = (props) => {
   return (
     <div className={classes.home}>
       Найди пару (заголовок)
-      Вернуться к игре
       <div className={classes.modalContainer}>
       <fieldset className={classes.modal}>
-        <legend className={classes.legend}>Предупреждение</legend>
-        <p className={classes.question}>Вы точно хотите начать заново?</p>
-        <button onClick={onRestartGame}>новая игра</button>
-        <button onClick={onClickPlay}>вернуться</button>
+        <legend className={classes.legend}>ПАУЗА</legend>
+        <p className={classes.question}>Вернуться к игре</p>
+        <button className={classes.playBtn} onClick={onClickPlay}>
+          <div className={classes.playIcon}>
+            <div className={classes.play}></div>
+          </div>
+        </button>
       </fieldset>
     </div>
-      <button className={classes.playBtn} onClick={onClickPlay}>
-        <div className={classes.playIcon}>
-          <div className={classes.play}></div>
-        </div>
-      </button>
+      
     </div>
   );
 };
