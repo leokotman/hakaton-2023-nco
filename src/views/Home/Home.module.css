@@ -1,99 +1,99 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap');
 
 .home {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  width: 100%;
-  height: 100dvh;
-  background-color: #E0DFFE;
-  position: relative;
-  z-index: 1;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100dvh;
+    background-color: #E0DFFE;
+    position: relative;
+    z-index: 1;
 }
 
 .gradient {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100dvh;
-  background-image: url('../../assets/images/background-gradient.png');
-  background-repeat: repeat-x;
-  z-index: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100dvh;
+    background-image: url('../../assets/images/background-gradient.png');
+    background-repeat: repeat-x;
+    z-index: 0;
 }
 
 .startImg {
-  position: absolute;
-  top: 0;
-  right: 10%;
-  height: 100dvh;
-  object-fit: fill;
-  overflow: hidden;
-  z-index: 0;
+    position: absolute;
+    top: 0;
+    right: 10%;
+    height: 100dvh;
+    object-fit: fill;
+    overflow: hidden;
+    z-index: 0;
 }
 
 .startContainer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  align-self: start;
-  gap: 70px;
-  width: 100%;
-  height: 100%;
-  z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: start;
+    gap: 70px;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
 }
 
 .startBox {
-  text-align: left;
+    text-align: left;
 }
 
 .home button {
-  border: none;
-  background-color: transparent;
-  margin: 0;
-  padding: 0;
+    border: none;
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
 }
 
 .start {
-  color: #2F2F61;
-  font-family: 'Comfortaa', sans-serif;
-  font-size: 36px;
-  font-weight: 700;
+    color: #2F2F61;
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
 }
 
 .playIcon {
-  width: 250px;
-  height: 250px;
-  background-color: #46467A;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  box-shadow: 1px 1px 14px 0px rgba(224, 223, 254, 0.4) inset, 8px 8px 8px 0px rgba(0, 0, 0 ,0.4);
-  margin: 44px 0 32px 0;
-  cursor: pointer;
+    width: 250px;
+    height: 250px;
+    background-color: #46467A;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 14px 0px rgba(224, 223, 254, 0.4) inset, 8px 8px 8px 0px rgba(0, 0, 0 ,0.4);
+    margin: 44px 0 32px 0;
+    cursor: pointer;
 }
 
 .play {
-  width: 0;
-  height: 0;
-  border-top: 50px solid transparent;
-  border-bottom: 50px solid transparent;
-  border-left: 80px solid #ffc212;
-  margin-left: 17px;
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    border-left: 80px solid #ffc212;
+    margin-left: 17px;
 }
 
 .playIcon {
-  box-shadow: -8px -8px 80px 0px #FFE8B7, 8px 8px 80px 0px #FFE8B7;
+    box-shadow: -8px -8px 80px 0px #FFE8B7, 8px 8px 80px 0px #FFE8B7;
 }
 
 .playBtn:hover .playIcon {
-  background-color: #2F2F61;
+    background-color: #2F2F61;
 }
 
 .playBtn:active .playIcon {
-  background-color: #22224e;
+    background-color: #22224e;
 }

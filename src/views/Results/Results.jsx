@@ -12,9 +12,11 @@ export const Results = (props) => {
     <div className={classes.settings}>
       <title className={classes.title}>Найди пару</title>
       <p className={classes.titleCongrats}>Поздравляем!</p>
+      <div className={classes.cover}>
       <p className={classes.titleWin}>Вы прошли игру</p>
       <p className={classes.titleWin}>За {moves} ходов</p>
-      <button onClick={onRestartGame}>Начать сначала</button>
+      </div>
+      <button className={classes.restartButton} onClick={onRestartGame}>Начать сначала</button>
     </div>
   );
 };
