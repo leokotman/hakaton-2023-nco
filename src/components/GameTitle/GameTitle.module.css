@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@800&display=swap');
+
+.title {
+  position: relative; /* Вынужненно, т.к. на стартовой странице перекрывается градиентом */
+  color: #fff;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin: 0;
+}
+
+.star {
+  position: absolute;
+}
+
+.smallStar {
+  top: -110px;
+  left: -130px;
+  width: 62px;
+}
+
+.bigStar {
+  top: -80px;
+  left: -80px;
+  width: 88px;
+}
