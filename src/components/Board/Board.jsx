@@ -71,9 +71,11 @@ export const Board = (props) => {
   }, [location]);
 
   return (
-    <div>
-      <div className={classes.moveCounter}>Ход: {move}</div>
-      <div className={classes.move}>Счёт: {moveToFinish} / 8</div>
+    <div className={classes.flexBlock}>
+      <div className={classes.stats}>
+        <div className={classes.moveCounter}>Ход: {move}</div>
+        <div className={classes.move}>Счёт: {moveToFinish} / 8</div>
+      </div>
       <div className={classes.boardGrid}>
         {cards.map((card) => (
           <SingleCard

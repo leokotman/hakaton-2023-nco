@@ -1,6 +1,6 @@
-import startImg from '../../assets/images/start.png';
-import GameTitle from '../../components/GameTitle/GameTitle';
+import startImg from 'assets/images/start.png';
 import classes from './Home.module.css';
+import { GameTitle } from 'components';
 
 export const Home = (props) => {
   const { onClickPlay } = props;
@@ -16,7 +16,7 @@ export const Home = (props) => {
         </div>
         <button className={classes.playBtn} onClick={onClickPlay}>
           <div className={classes.playIcon}>
-              <div className={classes.play}></div>
+            <div className={classes.play}></div>
           </div>
         </button>
       </div>
