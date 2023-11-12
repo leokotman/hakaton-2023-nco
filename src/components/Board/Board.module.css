@@ -2,12 +2,14 @@
     width: 100px;
     height: 100px;
     background-color: #46467A;
-    box-shadow: 3px 4px 16px 0px rgba(0, 0, 0, 0.40), 6px 7px 32px 0px rgba(119, 102, 198, 0.79) inset;
     border-radius: 10px;
 }
 
 img.card {
-    object-fit: cover;
+    background-color: #E0DFFE;
+    border: solid 4px #F9B0C3;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
 .back {
@@ -45,6 +47,7 @@ img.card {
     left: 200px;
     justify-content: center;
     align-items: center;
+    font-family: Comfortaa;
 }
 
 .move {
@@ -59,5 +62,5 @@ img.card {
     left: 200px;
     justify-content: center;
     align-items: center;
-
+    font-family: Comfortaa;
 }
