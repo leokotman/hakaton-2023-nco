@@ -1,0 +1,39 @@
+.game {
+  background-color: #7766C6;
+}
+
+.restart {
+    border-radius: 12px;
+    background: #F9B0C3;
+    width: 88px;
+    height: 88px;
+    background-image: url(../../assets/images/restart.svg);
+    background-repeat: no-repeat;
+    padding: 22px;
+    position: absolute;
+    top: 350px;
+    right: 300px;
+    border: initial;
+    background-position: center; 
+}
+
+.pause {
+    border-radius: 12px;
+    background: #F9B0C3;
+    width: 88px;
+    height: 88px;
+    background-image: url(../../assets/images/pause.svg);
+    background-repeat: no-repeat;
+    padding: 22px;
+    position: absolute;
+    top: 200px;
+    right: 300px;
+    border: initial;
+    background-position: center; 
+}
+
+.title {
+    font-family: 'Montserrat Alternates';
+    font-size: 96px;
+    font-weight: 800;
+}
