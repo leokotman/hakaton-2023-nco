@@ -1,66 +1,78 @@
 .card {
-    width: 100px;
-    height: 100px;
-    background-color: #46467A;
-    border-radius: 10px;
+  width: 100px;
+  height: 100px;
+  background-color: #46467a;
+  border-radius: 10px;
+}
+
+.flexBlock {
+  display: flex;
+  gap: 50px;
+}
+
+.stats {
+  display: flex;
+  flex-direction: column;
+  gap: 52px;
 }
 
 img.card {
-    background-color: #E0DFFE;
-    border: solid 4px #F9B0C3;
-    padding: 20px;
-    box-sizing: border-box;
+  background-color: #e0dffe;
+  border: solid 4px #f9b0c3;
+  padding: 20px;
+  box-sizing: border-box;
 }
 
 .back {
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-    box-shadow: 3px 4px 16px 0px rgba(0, 0, 0, 0.40), 6px 7px 32px 0px rgba(119, 102, 198, 0.79) inset;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  box-shadow: 3px 4px 16px 0px rgba(0, 0, 0, 0.4),
+    6px 7px 32px 0px rgba(119, 102, 198, 0.79) inset;
 }
 
 .open {
-    display: block;
+  display: block;
 }
 
 .none {
-    display: none;
+  display: none;
 }
 
 .boardGrid {
-    display: grid;
-    grid-template-columns: repeat(4, 100px);
-    grid-gap: 20px;
-    background-color: #46467A;
-    padding: 20px;
-    position: relative;
+  display: grid;
+  grid-template-columns: repeat(4, 100px);
+  grid-gap: 20px;
+  background-color: #46467a;
+  padding: 20px;
+  position: relative;
 }
 
 .moveCounter {
-    display: flex;
-    border-radius: 12px;
-    background: #2F2F61;
-    width: 200px;
-    height: 88px;
-    position: absolute;
-    top: 200px;
-    left: 200px;
-    justify-content: center;
-    align-items: center;
-    font-family: Comfortaa;
+  display: flex;
+  border-radius: 12px;
+  background: #2f2f61;
+  width: 200px;
+  height: 88px;
+  justify-content: center;
+  align-items: center;
+  font-family: Comfortaa;
 }
 
 .move {
-    display: flex;
-    border-radius: 12px;
-    background: #FFC212;
-    width: 200px;
-    height: 88px;
-    justify-content: center;
-    position: absolute;
-    top: 350px;
-    left: 200px;
-    justify-content: center;
-    align-items: center;
-    font-family: Comfortaa;
+  display: flex;
+  border-radius: 12px;
+  background: #ffc212;
+  width: 200px;
+  height: 88px;
+  justify-content: center;
+  justify-content: center;
+  align-items: center;
+  font-family: Comfortaa;
+}
+
+@media screen and (max-width: 767px) {
+  .flexBlock {
+    flex-direction: column;
+  }
 }
