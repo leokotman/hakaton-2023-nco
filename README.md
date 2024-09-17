@@ -2,27 +2,30 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/c1849ce8-e5e5-4911-b27b-494dff083d3a/deploy-status)](https://app.netlify.com/sites/hakaton-2023-best-team/deploys)
 
-## Команда
+## Команда / Team
 
-Julia [@jull04](https://t.me/jull04) - джуниор фронтенд разработчик (HTML, CSS, JS, React)
+Julia [@jull04](https://t.me/jull04) - Junior Frontend developer (HTML, CSS, JS, React)
 
-Ivan [@surikiv](https://t.me/surikiv) - джуниор фронтенд разработчик (HTML, CSS, JS)
+Ivan [@surikiv](https://t.me/surikiv) - Junior Frontend developer (HTML, CSS, JS)
 
-Ekaterina [@kate_sbv](https://t.me/kate_sbv) - UI/UX дизайнер (Figma, Adobe Illustrator, Procteate, Cinema 4D)
+Ekaterina [@kate_sbv](https://t.me/kate_sbv) - UI/UX designer (Figma, Adobe Illustrator, Procteate, Cinema 4D)
 
-Leo [@LeoKotman](https://t.me/LeoKotman) - фронтенд разработчик (React JS, Vanila JS)
+Leo [@LeoKotman](https://t.me/LeoKotman) - Frontend developer (React JS, Vanila JS)
 
-## Деплой проекта
+## Деплой проекта / Deploy
 
 https://hakaton-2023-best-team.netlify.app/
 
-## Описание
+## Описание / Description
 
 Перед вами браузерная игра "Найди пару" на основе Memory game, цель которой найти пары заранее перемешаных и перевернутых карточек.
 
-Нажимаю кнопку старт - перед вами появляется поле 4x4 с 8-мью парами карточек. Выбрав одну карточку, постарайтесь найти для неё пару. Каждый ваш ход, а также колличество оставшихся комбинаций представлены слева от поля игры. Кнопки справа позволят вам поставить игру на паузу, либо начать с начала. Когда все комбинации будут открыты игра завершится. Ваша задача сделать это за наименьшее колличество шагов. Приятной игры!!!
+Нажимаете кнопку старт - перед вами появляется поле 4x4 с 8-мью парами карточек. Выбрав одну карточку, постарайтесь найти для неё пару. Каждый ваш ход, а также колличество оставшихся комбинаций представлены слева от поля игры. Кнопки справа позволят вам поставить игру на паузу, либо начать с начала. Когда все комбинации будут открыты игра завершится. Ваша задача сделать это за наименьшее колличество шагов. Приятной игры!
 
-## Дизайн
+_This is a browser game ‘Find a Pair’ based on Memory game, the aim of which is to find pairs of pre-mixed and flipped cards.
+You press the start button and a 4x4 field with 8 pairs of cards appears in front of you. After choosing one card, try to find a pair for it. Each of your moves, as well as the number of remaining combinations are presented to the left of the game board. The buttons on the right will allow you to pause the game or start from the beginning. When all combinations are revealed, the game will end. Your task is to do it in the smallest number of steps. Enjoy the game!_
+
+## Дизайн / Design
 https://www.figma.com/file/cTmG2PWjhL7fRR9GrC0Vmb/Best-team---Memory-game---Hakaton-40?type=design&node-id=0%3A1&mode=design&t=v326ciC8QL7A4hp3-1
 
 ## Скриншоты
