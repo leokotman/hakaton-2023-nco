@@ -14,6 +14,10 @@ export const Home = (props) => {
           <GameTitle />
           <div className={classes.start}>Start game</div>
         </div>
+        {/* @Home.jsx (17-22)
+            TODO: Extract this play button into a reusable component
+            (e.g. <PlayButton /> or <PrimaryButton />) and reuse it in
+            Pause/Results to unify styling and behavior. */}
         <button className={classes.playBtn} onClick={onClickPlay}>
           <div className={classes.playIcon}>
             <div className={classes.play}></div>

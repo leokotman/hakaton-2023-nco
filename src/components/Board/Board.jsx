@@ -7,6 +7,10 @@ import { VIEWS } from 'utils/constants.js';
 import { AppContext } from 'utils/context';
 
 export const Board = (props) => {
+  // @Board.jsx (10-13)
+  // TODO: Consider extracting game state into a dedicated hook or context
+  // (e.g. useMemoryGame) and have Board receive props like onGameFinished.
+  // That would separate domain logic (moves, matches, finish) from this UI.
   const { location, setLocation, setGameScore } = useContext(AppContext);
   const [cards, setCards] = useState([]);
   const [move, setMove] = useState(0);
@@ -15,6 +19,8 @@ export const Board = (props) => {
   const [pickOne, setPickOne] = useState(null);
   const [pickTwo, setPickTwo] = useState(null);
 
+  // TODO: Move this shuffle/mapping logic into a pure utility function
+  // (e.g. mixImages(IMAGES)) so it can be tested independently of React.
   const mixImages = () => {
     const images = [...IMAGES, ...IMAGES]
       .sort(() => Math.random() - 0.5)
@@ -33,6 +39,8 @@ export const Board = (props) => {
     setMove((move) => move + 1);
   };
 
+  // TODO: This effect encodes core game rules (matching, marking, move count).
+  // Moving it into a custom hook would make the Board component much simpler.
   useEffect(() => {
     const bothCardsOpened = pickOne && pickTwo;
 
@@ -56,6 +64,9 @@ export const Board = (props) => {
     }
   }, [pickOne, pickTwo]);
 
+  // TODO: When the game is finished, Board currently controls navigation
+  // and updates global score. Prefer pushing this decision up (callback)
+  // so game logic and app navigation are less tightly coupled.
   useEffect(() => {
     if (moveToFinish === 8) {
       console.log('Finish');
@@ -64,6 +75,8 @@ export const Board = (props) => {
     }
   }, [moveToFinish, setLocation, move, setGameScore]);
 
+  // TODO: This effect implicitly starts a new game any time location === Game.
+  // In a larger app, consider explicit "startGame" actions instead of location checks.
   useEffect(() => {
     if (location === VIEWS.Game) {
       mixImages();
