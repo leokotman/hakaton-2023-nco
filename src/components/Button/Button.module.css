@@ -1,0 +1,10 @@
+.button {
+    border-radius: 12px;
+    background: #f9b0c3;
+    width: 88px;
+    height: 88px;
+    background-repeat: no-repeat;
+    padding: 22px;
+    border: initial;
+    background-position: center;
+}

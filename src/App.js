@@ -33,13 +33,19 @@ function App() {
         value={{ location, setLocation, gameScore, setGameScore }}
       >
         {isHomeOpen && <Home onClickPlay={() => goToNextPage(VIEWS.Game)} />}
-        {isGameOpen && (
-          <Game
-            onRestartGame={handleRestartGame}
-            onPauseGame={() => goToNextPage(VIEWS.Pause)}
-          />
+        {(isGameOpen || isPauseOpen) && (
+          <>
+            <Game
+              onRestartGame={handleRestartGame}
+              onPauseGame={() => goToNextPage(VIEWS.Pause)}
+            />
+            {isPauseOpen && (
+              <div style={{ position: 'fixed', inset: 0, zIndex: 10 }}>
+                <Pause onClickPlay={() => goToNextPage(VIEWS.Game)} />
+              </div>
+            )}
+          </>
         )}
-        {isPauseOpen && <Pause onClickPlay={() => goToNextPage(VIEWS.Game)} />}
         {isResultsOpen && <Results onRestartGame={handleRestartGame} />}
       </AppContext.Provider>
     </div>
