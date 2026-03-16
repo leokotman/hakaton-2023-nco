@@ -10,13 +10,13 @@ export const Results = (props) => {
 
   return (
     <div className={classes.settings}>
-      <title className={classes.title}>Найди пару</title>
-      <p className={classes.titleCongrats}>Поздравляем!</p>
+      <title className={classes.title}>Find a pair</title>
+      <p className={classes.titleCongrats}>Congratulations!</p>
       <div className={classes.cover}>
-      <p className={classes.titleWin}>Вы прошли игру</p>
-      <p className={classes.titleWin}>За {moves} ходов</p>
+      <p className={classes.titleWin}>You have completed the game</p>
+      <p className={classes.titleWin}>In {moves} moves</p>
       </div>
-      <button className={classes.restartButton} onClick={onRestartGame}>Начать сначала</button>
+      <button className={classes.restartButton} onClick={onRestartGame}>Start again</button>
     </div>
   );
 };

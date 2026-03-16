@@ -73,8 +73,8 @@ export const Board = (props) => {
   return (
     <div className={classes.flexBlock}>
       <div className={classes.stats}>
-        <div className={classes.moveCounter}>Ход: {move}</div>
-        <div className={classes.move}>Счёт: {moveToFinish} / 8</div>
+        <div className={classes.moveCounter}>Moves: {move}</div>
+        <div className={classes.move}>Score: {moveToFinish} / 8</div>
       </div>
       <div className={classes.boardGrid}>
         {cards.map((card) => (
