@@ -12,7 +12,7 @@ export const Home = (props) => {
       <div className={classes.startContainer}>
         <div className={classes.startBox}>
           <GameTitle />
-          <div className={classes.start}>Начать игру</div>
+          <div className={classes.start}>Start game</div>
         </div>
         <button className={classes.playBtn} onClick={onClickPlay}>
           <div className={classes.playIcon}>

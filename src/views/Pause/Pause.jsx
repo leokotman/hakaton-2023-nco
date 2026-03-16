@@ -7,10 +7,10 @@ export const Pause = (props) => {
     <div className={classes.home}>
       <div className={classes.gradient}>
         <div className={classes.modalContainer}>
-          <h1 className={classes.title}>Найди пару</h1>
+          <h1 className={classes.title}>Find a pair</h1>
           <fieldset className={classes.modal}>
-            <legend className={classes.legend}>ПАУЗА</legend>
-            <p className={classes.question}>Вернуться к игре</p>
+            <legend className={classes.legend}>PAUSE</legend>
+            <p className={classes.question}>Return to game</p>
             <button className={classes.playBtn} onClick={onClickPlay}>
               <div className={classes.playIcon}>
                 <div className={classes.play}></div>
