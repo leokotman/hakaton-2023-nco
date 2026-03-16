@@ -15,7 +15,7 @@ export const GameTitle = (props) => {
           alt="star"
           className={`${classes.star} ${classes.bigStar}`}
         />
-        Найди пару
+        Find a pair
       </h1>
     </div>
   );

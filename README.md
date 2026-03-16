@@ -2,7 +2,7 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/c1849ce8-e5e5-4911-b27b-494dff083d3a/deploy-status)](https://app.netlify.com/sites/hakaton-2023-best-team/deploys)
 
-## Команда / Team
+## Team
 
 Julia [@jull04](https://t.me/jull04) - Junior Frontend developer (HTML, CSS, JS, React)
 
@@ -12,55 +12,56 @@ Ekaterina [@kate_sbv](https://t.me/kate_sbv) - UI/UX designer (Figma, Adobe Illu
 
 Leo [@LeoKotman](https://t.me/LeoKotman) - Frontend developer (React JS, Vanila JS)
 
-## Деплой проекта / Deploy
+## Deploy
 
 https://hakaton-2023-best-team.netlify.app/
 
-## Описание / Description
+## Description
 
-Перед вами браузерная игра "Найди пару" на основе Memory game, цель которой найти пары заранее перемешаных и перевернутых карточек.
+This is a browser game "Find a Pair" based on a memory game, where the goal is to find pairs of pre-shuffled and flipped cards.
 
-Нажимаете кнопку старт - перед вами появляется поле 4x4 с 8-мью парами карточек. Выбрав одну карточку, постарайтесь найти для неё пару. Каждый ваш ход, а также колличество оставшихся комбинаций представлены слева от поля игры. Кнопки справа позволят вам поставить игру на паузу, либо начать с начала. Когда все комбинации будут открыты игра завершится. Ваша задача сделать это за наименьшее колличество шагов. Приятной игры!
+You press the start button and a 4x4 field with 8 pairs of cards appears in front of you. After choosing one card, try to find a pair for it. Each of your moves, as well as the number of remaining combinations, are shown to the left of the game board. The buttons on the right allow you to pause the game or start from the beginning. When all combinations are revealed, the game ends. Your task is to do this in the smallest number of steps. Enjoy the game!
 
 _This is a browser game ‘Find a Pair’ based on Memory game, the aim of which is to find pairs of pre-mixed and flipped cards.
 You press the start button and a 4x4 field with 8 pairs of cards appears in front of you. After choosing one card, try to find a pair for it. Each of your moves, as well as the number of remaining combinations are presented to the left of the game board. The buttons on the right will allow you to pause the game or start from the beginning. When all combinations are revealed, the game will end. Your task is to do it in the smallest number of steps. Enjoy the game!_
 
-## Дизайн / Design
+## Design
+
 https://www.figma.com/file/cTmG2PWjhL7fRR9GrC0Vmb/Best-team---Memory-game---Hakaton-40?type=design&node-id=0%3A1&mode=design&t=v326ciC8QL7A4hp3-1
 
-## Скриншоты
+## Screenshots
 
 https://drive.google.com/drive/folders/1imNgLvqkqNyfaOGXzmCmOmyUsl9l0Mc8?usp=drive_link
 
-## Чек-лист задач в рамках Hatakon-2023
+## Task checklist for Hakathon-2023
 
-&#9989; 1. Вывод поля с рандомно расположенными карточками (каждый раунд - новая позиция карточке);
+&#9989; 1. Displaying a field with randomly placed cards (each round the card positions are new);
 
-&#9989; 2. Возможность открывать карточки;
+&#9989; 2. Ability to flip cards;
 
-&#9989; 3. Закрытие непарных карточек;
+&#9989; 3. Hiding unmatched cards again;
 
-&#9989; 4. Подсчет колличества ходов;
+&#9989; 4. Counting the number of moves;
 
-&#9989; 5. Возможность начать игру заново;
+&#9989; 5. Ability to restart the game;
 
-&#9989; 6. Экран поздравления с окончанием игры;
+&#9989; 6. Congratulations screen when the game is finished;
 
-## Дополнительные задачи (UI/UX)
+## Additional tasks (UI/UX)
 
-&#9989; 1. Красивый дизайн;
+&#9989; 1. Beautiful design;
 
 # Getting Started with Create React App
 
-Проект реализован с помощью [Create React App](https://github.com/facebook/create-react-app).
+The project is implemented using [Create React App](https://github.com/facebook/create-react-app).
 
-## Развернуть проект локально
+## Run the project locally
 
-- скачать на свой ПК с помошью: `git clone`
-- далее `npm install`
-- `npm start`
+- clone the repo to your PC with `git clone`
+- then run `npm install`
+- and `npm start`
 
-## Дополнительные команды:
+## Additional commands:
 
 ### `npm start`
 

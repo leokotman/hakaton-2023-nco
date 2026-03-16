@@ -4,8 +4,8 @@ export const Settings = (props) => {
   const { onClickStartGame } = props;
   return (
     <div className={classes.settings}>
-      Настройки (выбери уровень)
-      <button onClick={onClickStartGame}>Начать игру</button>
+      Settings (choose a level)
+      <button onClick={onClickStartGame}>Start game</button>
     </div>
   );
 };
