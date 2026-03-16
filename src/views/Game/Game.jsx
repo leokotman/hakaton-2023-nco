@@ -1,6 +1,6 @@
+import { useState } from 'react';
 import { Board, Confirm, GameTitle } from 'components';
 import classes from './Game.module.css';
-import { useState } from 'react';
 
 export const Game = (props) => {
   const { onRestartGame, onPauseGame } = props;
