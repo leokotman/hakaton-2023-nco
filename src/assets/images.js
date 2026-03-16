@@ -9,6 +9,7 @@ import heartImg from './images/heart.svg';
 
 import backImg from 'assets/images/question.svg';
 import star from 'assets/images/star.svg';
+import backgroundHouse from 'assets/images/backgrounds-house.png';
 
 const IMAGES = [
   {
@@ -45,4 +46,4 @@ const IMAGES = [
   },
 ];
 
-export { IMAGES, backImg, star };
+export { IMAGES, backImg, star, backgroundHouse };
