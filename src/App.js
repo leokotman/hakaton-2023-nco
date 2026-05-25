@@ -5,6 +5,9 @@ import { VIEWS } from './utils/constants';
 import { AppContext } from 'utils/context';
 
 function App() {
+  // @App.js (8-16)
+  // TODO: This manual "location" router works for now but could be replaced
+  // with a real router (e.g. react-router) if you want URL-based navigation.
   const [location, setLocation] = useState(VIEWS.Home);
   const [gameScore, setGameScore] = useState({
     points: 0,
@@ -30,13 +33,19 @@ function App() {
         value={{ location, setLocation, gameScore, setGameScore }}
       >
         {isHomeOpen && <Home onClickPlay={() => goToNextPage(VIEWS.Game)} />}
-        {isGameOpen && (
-          <Game
-            onRestartGame={handleRestartGame}
-            onPauseGame={() => goToNextPage(VIEWS.Pause)}
-          />
+        {(isGameOpen || isPauseOpen) && (
+          <>
+            <Game
+              onRestartGame={handleRestartGame}
+              onPauseGame={() => goToNextPage(VIEWS.Pause)}
+            />
+            {isPauseOpen && (
+              <div style={{ position: 'fixed', inset: 0, zIndex: 10 }}>
+                <Pause onClickPlay={() => goToNextPage(VIEWS.Game)} />
+              </div>
+            )}
+          </>
         )}
-        {isPauseOpen && <Pause onClickPlay={() => goToNextPage(VIEWS.Game)} />}
         {isResultsOpen && <Results onRestartGame={handleRestartGame} />}
       </AppContext.Provider>
     </div>

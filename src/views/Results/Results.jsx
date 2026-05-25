@@ -10,6 +10,10 @@ export const Results = (props) => {
 
   return (
     <div className={classes.settings}>
+      {/* @Results.jsx (12-20)
+          TODO: Replace this <title> tag with a semantic heading
+          (e.g. <h1>) and manage document.title via an effect or
+          a head-management library instead of rendering it here. */}
       <title className={classes.title}>Find a pair</title>
       <p className={classes.titleCongrats}>Congratulations!</p>
       <div className={classes.cover}>

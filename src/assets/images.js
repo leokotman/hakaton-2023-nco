@@ -1,3 +1,7 @@
+// @images.js (1-49)
+// TODO: Keep this as the single source of truth for card assets.
+// If you add difficulty levels or themes, consider exposing sets
+// like EASY_IMAGES / HARD_IMAGES instead of hardcoding everywhere.
 import catImg from './images/cat.svg';
 import flowerImg from './images/flower.svg';
 import handImg from './images/hand.svg';

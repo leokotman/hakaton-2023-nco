@@ -4,6 +4,8 @@ import classes from './Board.module.css';
 import { backImg } from 'assets/images';
 
 function SingleCard({ card, chooseCard, isOpen }) {
+  // @SingleCard.jsx (7-8)
+  // TODO: Remove this empty effect; it does nothing and can confuse readers.
   useEffect(() => {}, [isOpen]);
 
   const clickOnCard = () => {

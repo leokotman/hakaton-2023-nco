@@ -4,6 +4,10 @@ export const Confirm = (props) => {
   const { onRestartGame, onClickPlay } = props;
 
   return (
+    // @Confirm.jsx (7-21)
+    // TODO: If you introduce more dialogs, consider extracting a generic
+    // Modal component and using this only for the specific "restart game"
+    // content to keep layout and accessibility consistent.
     <div className={classes.modalContainer}>
       <fieldset className={classes.modal}>
         <legend className={classes.legend}>Warning</legend>

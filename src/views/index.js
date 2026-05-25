@@ -1,7 +1,6 @@
 import { Game } from './Game/Game.jsx';
 import { Home } from './Home/Home.jsx';
-import { Settings } from './Settings/Settings.jsx';
 import { Results } from './Results/Results.jsx';
 import { Pause } from './Pause/Pause.jsx';
 
-export { Game, Home, Settings, Results, Pause };
+export { Game, Home, Results, Pause };
